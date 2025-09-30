@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
@@ -24,8 +24,6 @@ const Footer: React.FC = () => {
             <p className="text-sm text-gray-600 dark:text-gray-400">Bridging the gap between classroom and career.</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" aria-label="LinkedIn" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"><FaLinkedin size={24}/></a>
-              <a href="#" aria-label="GitHub" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"><FaGithub size={24}/></a>
-              <a href="#" aria-label="Twitter" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"><FaTwitter size={24}/></a>
             </div>
           </div>
           

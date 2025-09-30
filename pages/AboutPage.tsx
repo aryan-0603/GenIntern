@@ -28,7 +28,7 @@ const AboutPage: React.FC = () => {
                 <p className="text-gray-600 dark:text-gray-300">Our goal is to create a launchpad for the next generation of tech professionals. As a task-based internship platform, we provide an environment where you learn by building. We believe that a strong portfolio, built through hands-on project work, is the key to unlocking a successful career in tech.</p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://picsum.photos/seed/code/800/600" alt="An abstract representation of code on a screen" className="rounded-lg shadow-lg" />
+                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="A diverse team of interns collaborating on a project" className="rounded-lg shadow-lg" />
               </div>
             </div>
           </AnimatedSection>
