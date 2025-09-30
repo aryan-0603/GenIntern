@@ -60,12 +60,12 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme, currentTheme, isHomePage }
               {item}
             </NavLink>
           ))}
-          <button onClick={toggleTheme} className="text-xl text-gray-800 dark:text-gray-200 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+          <button onClick={toggleTheme} aria-label="Toggle dark and light theme" className="text-xl text-gray-800 dark:text-gray-200 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
             {currentTheme === 'dark' ? <FaSun /> : <FaMoon />}
           </button>
         </div>
 
-        <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden z-50">
+        <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden z-50" aria-label="Toggle mobile navigation menu">
            <div className="space-y-2">
                 <span className={`block w-6 h-0.5 bg-gray-800 dark:bg-gray-200 transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-2.5' : ''}`}></span>
                 <span className={`block w-6 h-0.5 bg-gray-800 dark:bg-gray-200 transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`}></span>

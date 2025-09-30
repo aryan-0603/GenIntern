@@ -31,7 +31,8 @@ const AboutPage: React.FC = () => {
                 <img 
                   src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" 
                   alt="A diverse team of young professionals working together in a modern, bright office space." 
-                  className="rounded-lg shadow-lg w-full h-96 object-cover" />
+                  className="rounded-lg shadow-lg w-full h-96 object-cover" 
+                  loading="lazy" />
               </div>
             </div>
           </AnimatedSection>

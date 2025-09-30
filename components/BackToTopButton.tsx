@@ -28,6 +28,7 @@ const BackToTopButton: React.FC = () => {
   return (
     <button
       onClick={scrollToTop}
+      aria-label="Scroll to top of page"
       className={`fixed bottom-8 right-8 z-50 p-3 rounded-full bg-cyan-500/80 dark:bg-cyan-400/80 text-white dark:text-gray-900 shadow-lg hover:bg-cyan-500 dark:hover:bg-cyan-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 dark:focus:ring-offset-gray-900 transition-all duration-300 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
       }`}

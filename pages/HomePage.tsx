@@ -88,7 +88,7 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <AnimatedSection>
               <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-                <img src="https://picsum.photos/seed/person1/100/100" alt="Anjali Mehta" className="w-20 h-20 rounded-full mb-4" />
+                <img src="https://picsum.photos/seed/person1/100/100" alt="Headshot of Anjali Mehta" className="w-20 h-20 rounded-full mb-4" loading="lazy" />
                 <p className="text-gray-600 dark:text-gray-300 italic mb-4">"The mentorship was incredible. I learned more in 3 months at GenIntern than in 2 years of college. My project landed me my first job!"</p>
                 <h4 className="font-bold font-heading text-gray-900 dark:text-white">- Anjali Mehta</h4>
                 <span className="text-sm text-orange-500 dark:text-orange-400">Full-Stack Developer Intern</span>
@@ -96,7 +96,7 @@ const HomePage: React.FC = () => {
             </AnimatedSection>
             <AnimatedSection>
               <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-                <img src="https://picsum.photos/seed/person2/100/100" alt="Rohan Desai" className="w-20 h-20 rounded-full mb-4" />
+                <img src="https://picsum.photos/seed/person2/100/100" alt="Headshot of Rohan Desai" className="w-20 h-20 rounded-full mb-4" loading="lazy" />
                 <p className="text-gray-600 dark:text-gray-300 italic mb-4">"A fantastic experience from start to finish. The project was challenging but rewarding, and the feedback was always constructive."</p>
                 <h4 className="font-bold font-heading text-gray-900 dark:text-white">- Rohan Desai</h4>
                 <span className="text-sm text-orange-500 dark:text-orange-400">Machine Learning Intern</span>
