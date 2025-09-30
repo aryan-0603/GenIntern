@@ -18,8 +18,8 @@ const ParticlesBackground: React.FC<ParticlesBackgroundProps> = ({ theme }) => {
         });
     }, []);
 
-    const particlesLoaded = async (container?: Container): Promise<void> => {
-        // console.log(container);
+    const particlesLoaded = async (_container?: Container): Promise<void> => {
+        // console.log(_container);
     };
 
     const options: ISourceOptions = useMemo(
