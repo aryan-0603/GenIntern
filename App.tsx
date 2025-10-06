@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import InternshipsPage from './pages/InternshipsPage';
 import ContactPage from './pages/ContactPage';
+import LegalPage from './pages/LegalPage';
 import BackToTopButton from './components/BackToTopButton';
 import ParticlesBackground from './components/ParticlesBackground';
 
@@ -44,6 +45,7 @@ const AppContent: React.FC = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/internships" element={<InternshipsPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/legal" element={<LegalPage />} />
           </Routes>
         </main>
         <Footer />
